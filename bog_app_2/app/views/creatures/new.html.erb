@@ -1,0 +1,6 @@
+
+<%= form_for @creature do |taco| %>
+  <%= taco.text_field :name %>
+  <%= taco.text_area :description %>
+  <%= taco.submit "Save Creature" %>
+<% end %>
