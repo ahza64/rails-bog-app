@@ -1,0 +1,8 @@
+edit
+<%= form_for @creature do |c| %>
+<p>
+  <%= c.text_field :name %>
+  <%= c.text_area :description %>
+  <%= c.submit "Save" %>
+</p>
+<% end %>
